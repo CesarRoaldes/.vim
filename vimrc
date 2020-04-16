@@ -35,7 +35,7 @@ set dir=~/.cache/vim
 
 " Code folding options
 "set foldmethod=indent
-colorscheme github
+colorscheme molokai
 
 " Colonne de gris a 110 caracteres
 set colorcolumn=100
@@ -44,3 +44,7 @@ highlight ColorColumn ctermbg=188
 " Compatibilite
 set nocompatible 
 filetype plugin indent on
+
+" Test remap <ESC>
+inoremap jk <ESC>
+let mapleader = " "
