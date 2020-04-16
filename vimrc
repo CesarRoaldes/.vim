@@ -31,7 +31,7 @@ set relativenumber
 " Miscellaneaous options
 set backspace=indent,eol,start
 set history=1000
-set dir=~/.cache/vim
+set dir=~/.vim/save
 
 " Code folding options
 "set foldmethod=indent
