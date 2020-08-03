@@ -1,3 +1,8 @@
+packloadall
+
+" python in dynamic mode (+python3/dyn)
+" set pyxversion=3
+
 " Configuration des tabulations
 set autoindent
 set shiftround
@@ -48,3 +53,20 @@ filetype plugin indent on
 " Test remap <ESC>
 inoremap jk <ESC>
 let mapleader = " "
+let maplocalleader = " "
+
+" Mapping jupyter-vim
+let g:jupyter_mapkeys = 0
+nnoremap <buffer> <silent> co :JConnect<CR>
+nnoremap <buffer> <silent> <F8> :JRunFile<CR>
+nnoremap <buffer> <silent> <F9> :JSendRange<CR><CR>
+nnoremap <buffer> <silent> <F10> :JSendCell<CR>
+vmap     <buffer> <silent> <F9> <Plug>JupyterRunVisual
+
+" YouCompleteMe setup
+let g:ycm_max_num_candidates = 50
+let g:ycm_max_num_identifier_candidates = 10
+let g:ycm_auto_trigger = 0
+let g:ycm_autoclose_preview_window_after_completion = 1
+"let g:ycm_key_invoke_completion = '<C-Space>'
+"let g:ycm_key_list_stop_completion = '<C-y>'
