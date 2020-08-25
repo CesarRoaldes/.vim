@@ -62,6 +62,8 @@ nnoremap <buffer> <silent> <F8> :JRunFile<CR>
 nnoremap <buffer> <silent> <F9> :JSendRange<CR><CR>
 nnoremap <buffer> <silent> <F10> :JSendCell<CR>
 vmap     <buffer> <silent> <F9> <Plug>JupyterRunVisual
+imap <buffer> <silent> <F9> :JSendRange<CR><CR>
+
 
 " YouCompleteMe setup
 let g:ycm_max_num_candidates = 50
