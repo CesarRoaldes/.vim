@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/home/cesar/cours/ensae/donnees_distrib/projet/mobile_data/split_data/split/t=11'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/cesar/anaconda3/envs/mission_ena/lib/python3.8/site-packages/bert_text_generation/__pycache__'
+let g:netrw_dirhist_2='/home/cesar/sahar/mission_ena/bert_text_generation/utils'
+let g:netrw_dirhist_1='/home/cesar/ipython'
+let g:netrw_dirhist_0='/home/cesar/sahar/mission_ena/bert_text_generation'
+let g:netrw_dirhist_9='/home/cesar/.vim/pack/git-plugins/start/YouCompleteMe'
+let g:netrw_dirhist_8='/home/cesar/.vim/pack'
+let g:netrw_dirhist_7='/home/cesar/code/python/nlp/sentiment_analysis'
+let g:netrw_dirhist_6='/home/cesar/jupyter-vim_BKP'
+let g:netrw_dirhist_5='/home/cesar/code/python/flask'
+let g:netrw_dirhist_4='/home/cesar/code/python/pytorch/dlwpt-code'
